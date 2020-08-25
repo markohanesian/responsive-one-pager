@@ -8,11 +8,11 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: transparent;
-    border-bottom-width: 2px;
-    border-bottom-style: dashed;
-    border-bottom: white;
+    align-content: center;
+    border: lightskyblue;
+    border-bottom: 2px solid black;
 }
+
 
 section {
     display: flex;
@@ -20,6 +20,34 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
+    align-content: center;
+}
+
+div {
+    padding: 10px;
+}
+
+#home {
+    /* height: 250px; */
+}
+
+#services {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.services-items {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 250px;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 a {
@@ -41,6 +69,8 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: xxx-large;
     font-weight: 600;
+    padding: 20px;
+    margin: 0;
 }
 
 p {
@@ -50,4 +80,6 @@ p {
 .lead {
     font-size: 1.5rem;
     font-weight: lighter;
+    padding-bottom: 40px;
+    margin: 0px;
 }
