@@ -27,10 +27,6 @@ div {
     padding: 10px;
 }
 
-#home {
-    /* height: 250px; */
-}
-
 #services {
     background-color: grey;
     display: flex;
@@ -51,6 +47,14 @@ div {
 }
 
 #about {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+#contact {
     display: flex;
     flex-direction: column;
     padding-left: 50px;
