@@ -1,4 +1,6 @@
 # Responsive One-Pager
+![Web Screenshot](web-screenshot.png)
+![Mobile Screenshot](mobile-screenshot.png)
 
 ## Description
 A custom built, modern, responsive, one-pager style website template built with HTML and CSS, utilizing Flexbox properties desktop and mobile readability
