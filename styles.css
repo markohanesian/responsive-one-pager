@@ -50,6 +50,14 @@ div {
     padding-bottom: 30px;
 }
 
+#about {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
 a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
@@ -71,6 +79,12 @@ h1 {
     font-weight: 600;
     padding: 20px;
     margin: 20;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-weight: 400;  
 }
 
 p {
