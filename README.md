@@ -1,7 +1,7 @@
 # Responsive One-Pager
 
 ## Description
-A custom modern, responsive, one-pager style website template built with HTML and CSS, utilizing Flexbox properties desktop and mobile readability
+A custom built, modern, responsive, one-pager style website template built with HTML and CSS, utilizing Flexbox properties desktop and mobile readability
 
 ## User Story
 I need a responsive, modern, sleek website layout that is lightweight in code and easy to customize. Full-stack web application frameworks are simply overkill for my intended web use for this particular project. I want to be able to make simple modifications to the CSS styling to be able to easily customize this web template to my brand/project.
