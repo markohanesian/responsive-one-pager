@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive One-Pager</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/yourcode.js"></script>
+    <script src="https://kit.fontawesome.com/10b7b901e1.js" crossorigin="anonymous"></script>    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav>
-        <a href="/home/">Home</a> 
-        <a href="#Services">Services</a> 
-        <a href="/About/">About</a> 
-        <a href="/Contact/">Contact</a> 
+        <div style="display: flex;">
+            <i class="far fa-building" style="margin-right: 10px;"></i>
+            <p class=lead>Business</p>
+        </div>
+        <div>
+            <a href="/home/">Home</a> 
+            <a href="#Services">Services</a> 
+            <a href="/About/">About</a> 
+            <a href="/Contact/">Contact</a> 
+        </div>
     </nav>
     <section id="home">
         <h1>Business Name</h1>
@@ -48,8 +53,14 @@
     </section>
     <section id="contact">
         <h2>Contact</h2>
-        <i class="fas fa-band-aid"></i>
-        Phone
+        
+        <strong>Phone:</strong> (555) 555-5555
+        <br>
+        <br>
+        <strong>Email:</strong> company@company.com
+        <br>
+        <br>
+        <strong>Address:</strong> 555 Address St.
     </section>
 </body>
 </html>

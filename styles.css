@@ -1,16 +1,16 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: white;
-    color: black;
+    background-color: #3d5a80;
+    color: white;
 }
 
 nav {
+    height: 200px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-content: center;
-    border: lightskyblue;
-    border-bottom: 2px solid black;
+    /* border-bottom: 1px solid lightgrey; */
 }
 
 
@@ -27,12 +27,17 @@ div {
     padding: 10px;
 }
 
+#home {
+    background-color: #3d5a80;
+}
+
 #services {
-    background-color: grey;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    background-color: white;
+    color: black;
 }
 
 .services-items {
@@ -57,6 +62,7 @@ div {
 #contact {
     display: flex;
     flex-direction: column;
+    align-content: center;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 30px;
@@ -67,14 +73,14 @@ a {
     text-transform: uppercase;
     font-weight: normal;
     text-decoration: none;
-    color: darkslategrey;
+    color: white;
     padding: 10px;
 }
 a:hover {
     text-decoration: none;
     /* filter: brightness(85%); */
-    background-color: lightblue;
-    color: white;
+    background-color: #e0fbfc;
+    color: black;
 }
 
 h1 {
@@ -100,4 +106,9 @@ p {
     font-weight: lighter;
     padding-bottom: 40px;
     margin: 0px;
+}
+
+i {
+    color: white;
+    font-size: xx-large;
 }
