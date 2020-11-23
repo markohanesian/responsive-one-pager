@@ -1,72 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive One-Pager</title>
-    <script src="https://kit.fontawesome.com/10b7b901e1.js" crossorigin="anonymous"></script>    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <script
+      src="https://kit.fontawesome.com/10b7b901e1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <nav>
-        <div style="display: flex;">
-            <i class="far fa-building" style="margin-right: 10px;"></i>
-            <p class=lead>Business</p>
+      <!-- <div id="nav-link-div"> -->
+        <!-- responsive navbar -->
+        <div style="display: flex">
+            <i class="far fa-building" style="margin-right: 10px"></i>
+            <p class="lead">Business</p>
         </div>
-        <div id="nav-link-div">
-            <i class="fas fa-bars"></i>
-        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a class="menuLink" href="#">Home</a></li>
+                <li><a class="menuLink" href="#">Profile</a></li>
+                <li><a class="menuLink" href="#">About</a></li>
+                <li><a class="menuLink" href="#">Contacts</a></li>
+            </ul>
+        </nav>
+        <button class="ham"></button>
+
+      <!-- </div> -->
     </nav>
     <section id="home">
-        <h1>Business Name</h1>
-        <p class=lead>
-            A short introduction to your business
-        </p>
+      <h1>Business Name</h1>
+      <p class="lead">A short introduction to your business</p>
     </section>
     <section id="services" href="#Services">
-        <div class="services-items" id="service-1">
-            <p class=lead>
-                Service 1
-            </p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan hendrerit neque eget accumsan. Proin pretium tincidunt imperdiet. Nullam tempor at neque in varius. 
-        </div>
-        <div class="services-items" id="service-2">
-            <p class=lead>
-                Service 2
-            </p> 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan hendrerit neque eget accumsan. Proin pretium tincidunt imperdiet. Nullam tempor at neque in varius.
-        </div>
-        <div class="services-items" id="service-3">
-            <p class=lead>
-                Service 3
-            </p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan hendrerit neque eget accumsan. Proin pretium tincidunt imperdiet. Nullam tempor at neque in varius.
-        </div>
+      <div class="services-items" id="service-1">
+        <p class="lead">Service 1</p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan
+        hendrerit neque eget accumsan. Proin pretium tincidunt imperdiet. Nullam
+        tempor at neque in varius.
+      </div>
+      <div class="services-items" id="service-2">
+        <p class="lead">Service 2</p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan
+        hendrerit neque eget accumsan. Proin pretium tincidunt imperdiet. Nullam
+        tempor at neque in varius.
+      </div>
+      <div class="services-items" id="service-3">
+        <p class="lead">Service 3</p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan
+        hendrerit neque eget accumsan. Proin pretium tincidunt imperdiet. Nullam
+        tempor at neque in varius.
+      </div>
     </section>
     <section id="about">
-        <h2>About the Company</h2>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan hendrerit neque eget accumsan. Proin pretium tincidunt imperdiet. Nullam tempor at neque in varius. 
-        <br>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan hendrerit neque eget accumsan. Proin pretium tincidunt imperdiet. Nullam tempor at neque in varius. 
+      <h2>About the Company</h2>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan
+      hendrerit neque eget accumsan. Proin pretium tincidunt imperdiet. Nullam
+      tempor at neque in varius.
+      <br />
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan
+      hendrerit neque eget accumsan. Proin pretium tincidunt imperdiet. Nullam
+      tempor at neque in varius.
     </section>
     <section id="contact">
-        <h2>Contact</h2>
-        
-        <strong>Phone:</strong> (555) 555-5555
-        <br>
-        <br>
-        <strong>Email:</strong> company@company.com
-        <br>
-        <br>
-        <strong>Address:</strong> 555 Address St.
+      <h2>Contact</h2>
+
+      <strong>Phone:</strong> (555) 555-5555
+      <br />
+      <br />
+      <strong>Email:</strong> company@company.com
+      <br />
+      <br />
+      <strong>Address:</strong> 555 Address St.
     </section>
-    <footer>        
-        <div id="footer-text">2020 Business Name</div>
-        <div id="footer-links-div">
-            <a class="footer-link" href="/Contact/">company</a> 
-            <a class="footer-link" href="/Contact/">careers</a> 
-            <a class="footer-link" href="/Contact/">help</a> 
-            <a class="footer-link" href="/Contact/">Contact</a> 
-        </div>
+    <footer>
+      <div id="footer-text">2020 Business Name</div>
+      <div id="footer-links-div">
+        <a class="footer-link" href="/Contact/">company</a>
+        <a class="footer-link" href="/Contact/">careers</a>
+        <a class="footer-link" href="/Contact/">help</a>
+        <a class="footer-link" href="/Contact/">Contact</a>
+      </div>
     </footer>
-</body>
+    <script src="navbar-function.js"></script>
+  </body>
 </html>
